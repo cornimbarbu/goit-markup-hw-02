@@ -21,6 +21,10 @@ body {
   font-family: var(--text-font-family);
 }
 
+li {
+  list-style: none;
+}
+
 /*Header*/
 
 .global-header {
