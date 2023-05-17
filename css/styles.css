@@ -28,8 +28,6 @@ body {
 }
 
 .global-header a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -61,15 +59,12 @@ body {
   color: var(--link-active-color);
 }
 
-.global-header a.active {
-  color: var(--link-active-color);
-}
-
 /*Section*/
 
 .dark-section {
   background: var(--dark-section);
 }
+
 h1,
 h2,
 h3,
@@ -119,8 +114,6 @@ h5 {
 }
 
 .button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -128,8 +121,16 @@ h5 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
   color: #ffffff;
   cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
 }
 
 .filter-button {
@@ -141,7 +142,15 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: var(--link-active-color);
+  color: #ffffff;
 }
 
 .info-section {
@@ -175,8 +184,6 @@ h5 {
 }
 
 .capabilities li {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -184,8 +191,6 @@ h5 {
 }
 
 .capabilities p {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
